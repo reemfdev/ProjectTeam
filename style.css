@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  margin: 0;
+  background-color: #ffffff;
+  color: #222;
+}
+
+
+/* ===== HEADER ===== */
+.main-header {
+  background-color: #0b5d3b;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
+.logo-right img,
+.logo-left img {
+  height: 55px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 25px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+.book-btn {
+  background-color: white;
+  color: #0b5d3b;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.breadcrumb {
+  padding: 15px 40px;
+  background: #eee;
+  font-size: 14px;
+}
+
+
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  padding: 50px 60px;
+}
+
+
+.right-side h2 {
+  color: #0b5d3b;
+  font-size: 22px;
+}
+
+
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.card {
+  background: white;
+  padding: 22px 26px;
+  border-radius: 14px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  max-width: 420px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h3 {
+  color: #0b5d3b;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+ /* ===== FOOTER ===== */
+.main-footer {
+  background-color: #0b5d3b;
+  color: white;
+  padding: 30px 60px 20px;
+  margin-top: 60px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.footer-top img {
+  height: 70px;
+  max-width: 180px;
+  object-fit: contain;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin-bottom: 30px;
+}
+
+.footer-middle h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.footer-middle p {
+  margin: 6px 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 15px;
+  font-size: 13px;
+}
+
+.footer-bottom img {
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .footer-top,
+  .footer-middle,
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
