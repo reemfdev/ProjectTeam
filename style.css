@@ -161,6 +161,82 @@ body {
 .footer-bottom img {
   height: 40px;
 }
+/* =========================
+   BENEFITS SECTION (NEW)
+========================= */
+
+.benefits-section {
+  padding: 60px;
+  background: #ffffff;
+}
+
+.benefits-section.light {
+  background: #f7f7f7;
+}
+
+.benefits-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* Title (right side) */
+.benefits-title h2 {
+  color: #0b5d3b;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+/* Cards container */
+.benefits-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Card */
+.benefit-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.benefit-card h3 {
+  color: #0b5d3b;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.benefit-card p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+/* Number */
+.benefit-card .number {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  color: #0b5d3b;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .benefits-container {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits-section {
+    padding: 40px 25px;
+  }
+}
 
 @media (max-width: 768px) {
   .footer-top,
