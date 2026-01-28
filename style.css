@@ -29,3 +29,20 @@ body::after {
   font-size: 13px;
   margin-top: 50px;
 }
+/* ================== مسار الصفحة ================== */
+
+.breadcrumb {
+  padding: 15px 40px;
+  background: #eee;
+  font-size: 14px;
+}
+
+/* ================== أقسام المحتوى ================== */
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  padding: 50px 60px;
+}
+
