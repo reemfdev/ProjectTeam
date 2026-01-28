@@ -45,4 +45,18 @@ body::after {
   gap: 40px;
   padding: 50px 60px;
 }
+/* الجهة اليمنى */
+
+.right-side h2 {
+  color: #0b5d3b;
+  font-size: 22px;
+}
+
+/* الجهة اليسرى */
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
