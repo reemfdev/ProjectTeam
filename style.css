@@ -84,3 +84,21 @@ body::after {
   font-size: 15px;
   line-height: 1.7;
 }
+/* ================== تجاوب للجوال ================== */
+
+@media (max-width: 768px) {
+  .grid-section {
+    grid-template-columns: 1fr;
+    padding: 30px 25px;
+  }
+
+  body::before {
+    font-size: 13px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  body::after {
+    font-size: 12px;
+  }
+}
