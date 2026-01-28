@@ -5,3 +5,27 @@ body {
   background-color: #f7f7f7;
   color: #222;
 }
+/* ================== هيدر وفوتر بـ CSS فقط ================== */
+
+body::before {
+  content: "اختبار همزة     الرئيسية | من نحن | الاختبارات | تواصل معنا";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background-color: #0b5d3b;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+body::after {
+  content: "جميع الحقوق محفوظة © همزة — بدعم مجمع الملك سلمان العالمي للغة العربية";
+  display: block;
+  text-align: center;
+  padding: 25px;
+  background-color: #0b5d3b;
+  color: white;
+  font-size: 13px;
+  margin-top: 50px;
+}
